@@ -48,11 +48,8 @@ Seguro.prototype.cotizarSeguro = function () {
     } else {
         cantidad *=1.50
     };
-   
-    return cantidad; 
 
-        
-    
+    return cantidad.toFixed(2) // para poner dos decimales    
 }
 
 function UI() {}
